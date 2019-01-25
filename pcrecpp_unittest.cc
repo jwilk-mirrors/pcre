@@ -1202,24 +1202,30 @@ int main(int argc, char** argv) {
     CHECK(re_test1.FullMatch(utf8_string));
     RE re_test2("...", pcrecpp::UTF8());
     CHECK(re_test2.FullMatch(utf8_string));
-    
+
     // PH added these tests for leading option settings
-    
+
+    RE re_testZ0("(*CR)(*NO_START_OPT).........");
+    CHECK(re_testZ0.FullMatch(utf8_string));
+
+#ifdef SUPPORT_UTF
     RE re_testZ1("(*UTF8)...");
     CHECK(re_testZ1.FullMatch(utf8_string));
 
     RE re_testZ2("(*UTF)...");
     CHECK(re_testZ2.FullMatch(utf8_string));
 
+#ifdef SUPPORT_UCP
     RE re_testZ3("(*UCP)(*UTF)...");
     CHECK(re_testZ3.FullMatch(utf8_string));
 
     RE re_testZ4("(*UCP)(*LIMIT_MATCH=1000)(*UTF)...");
     CHECK(re_testZ4.FullMatch(utf8_string));
- 
+
     RE re_testZ5("(*UCP)(*LIMIT_MATCH=1000)(*ANY)(*UTF)...");
     CHECK(re_testZ5.FullMatch(utf8_string));
- 
+#endif
+#endif
 
     // Check that '.' matches one byte or UTF-8 character
     // according to the mode.
