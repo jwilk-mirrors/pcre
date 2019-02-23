@@ -5,8 +5,8 @@ Note that the PCRE 8.xx series (PCRE1) is now in a bugfix-only state. All
 development is happening in the PCRE2 10.xx series.
 
 
-Version 8.43 25-January-2019
-----------------------------
+Version 8.43 23-February-2019
+-----------------------------
 
 1. Some time ago the config macro SUPPORT_UTF8 was changed to SUPPORT_UTF
 because it also applies to UTF-16 and UTF-32. However, this change was not made
