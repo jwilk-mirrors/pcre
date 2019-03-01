@@ -9,9 +9,9 @@ dnl The PCRE_PRERELEASE feature is for identifying release candidates. It might
 dnl be defined as -RC2, for example. For real releases, it should be empty.
 
 m4_define(pcre_major, [8])
-m4_define(pcre_minor, [43])
-m4_define(pcre_prerelease, [])
-m4_define(pcre_date, [2019-02-23])
+m4_define(pcre_minor, [44])
+m4_define(pcre_prerelease, [-RC1])
+m4_define(pcre_date, [2019-03-01])
 
 # NOTE: The CMakeLists.txt file searches for the above variables in the first
 # 50 lines of this file. Please update that if the variables above are moved.
@@ -159,12 +159,15 @@ AC_ARG_ENABLE(jit,
 
 if test "$enable_jit" = "auto"; then
   AC_LANG(C)
+  SAVE_CPPFLAGS=$CPPFLAGS
+  CPPFLAGS=-I$srcdir
   AC_COMPILE_IFELSE([AC_LANG_SOURCE([[
   #define SLJIT_CONFIG_AUTO 1
   #include "sljit/sljitConfigInternal.h"
   #if (defined SLJIT_CONFIG_UNSUPPORTED && SLJIT_CONFIG_UNSUPPORTED)
   #error unsupported
   #endif]])], enable_jit=yes, enable_jit=no)
+  CPPFLAGS=$SAVE_CPPFLAGS
 fi
 
 # Handle --disable-pcregrep-jit (enabled by default)

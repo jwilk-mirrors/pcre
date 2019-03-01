@@ -5,6 +5,14 @@ Note that the PCRE 8.xx series (PCRE1) is now in a bugfix-only state. All
 development is happening in the PCRE2 10.xx series.
 
 
+Version 8.44-RC1 01 March-2019
+------------------------------
+
+1. Setting --enable-jit=auto for an out-of-tree build failed because the
+source directory wasn't in the search path for AC_TRY_COMPILE always. Patch 
+from Ross Burton.
+
+
 Version 8.43 23-February-2019
 -----------------------------
 
