@@ -17,6 +17,9 @@ with lcc compiler (EDG frontend based); the problem it fixes is:
 
   lcc: "pcrecpp.cc", line 74: error: declaration aliased to undefined entity
        "_ZN7pcrecpp2RE6no_argE" [-Werror]
+       
+3. Change 2 for 8.43 omitted (*LF) from the list of start-of-pattern items. Now 
+added. 
 
 
 Version 8.43 23-February-2019

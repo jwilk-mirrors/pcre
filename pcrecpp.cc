@@ -92,6 +92,7 @@ static const char *start_options[] = {
   "(*LIMIT_RECURSION=",
   "(*LIMIT_MATCH=",
   "(*CRLF)",
+  "(*LF)", 
   "(*CR)",
   "(*BSR_UNICODE)",
   "(*BSR_ANYCRLF)",
