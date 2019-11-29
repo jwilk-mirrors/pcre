@@ -9,7 +9,7 @@ Version 8.44-RC1 01 March-2019
 ------------------------------
 
 1. Setting --enable-jit=auto for an out-of-tree build failed because the
-source directory wasn't in the search path for AC_TRY_COMPILE always. Patch 
+source directory wasn't in the search path for AC_TRY_COMPILE always. Patch
 from Ross Burton.
 
 2. Applied a patch from Michael Shigorin to fix 8.43 build on e2k arch
@@ -17,9 +17,11 @@ with lcc compiler (EDG frontend based); the problem it fixes is:
 
   lcc: "pcrecpp.cc", line 74: error: declaration aliased to undefined entity
        "_ZN7pcrecpp2RE6no_argE" [-Werror]
-       
-3. Change 2 for 8.43 omitted (*LF) from the list of start-of-pattern items. Now 
-added. 
+
+3. Change 2 for 8.43 omitted (*LF) from the list of start-of-pattern items. Now
+added.
+
+4. Fix ARMv5 JIT improper handling of labels right after a constant pool.
 
 
 Version 8.43 23-February-2019
