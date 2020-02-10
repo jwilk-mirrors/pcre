@@ -23,6 +23,10 @@ added.
 
 4. Fix ARMv5 JIT improper handling of labels right after a constant pool.
 
+5. Small patch to pcreposix.c to set the erroroffset field to -1 immediately
+after a successful compile, instead of at the start of matching to avoid a
+sanitizer complaint (regexec is supposed to be thread safe).
+
 
 Version 8.43 23-February-2019
 -----------------------------
