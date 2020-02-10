@@ -27,6 +27,9 @@ added.
 after a successful compile, instead of at the start of matching to avoid a
 sanitizer complaint (regexec is supposed to be thread safe).
 
+6. Check the size of the number after (?C as it is read, in order to avoid 
+integer overflow.
+
 
 Version 8.43 23-February-2019
 -----------------------------
