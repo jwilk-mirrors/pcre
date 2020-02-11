@@ -30,6 +30,9 @@ sanitizer complaint (regexec is supposed to be thread safe).
 6. Check the size of the number after (?C as it is read, in order to avoid 
 integer overflow.
 
+7. Tidy up left shifts to avoid sanitize warnings; also fix one NULL deference 
+in pcretest.
+
 
 Version 8.43 23-February-2019
 -----------------------------
