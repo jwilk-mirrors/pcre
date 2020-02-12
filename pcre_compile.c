@@ -7130,14 +7130,14 @@ for (;; ptr++)
           int n = 0;
           ptr++;
           while(IS_DIGIT(*ptr))
-            { 
+            {
             n = n * 10 + *ptr++ - CHAR_0;
             if (n > 255)
               {
               *errorcodeptr = ERR38;
               goto FAILED;
               }
-            } 
+            }
           if (*ptr != CHAR_RIGHT_PARENTHESIS)
             {
             *errorcodeptr = ERR39;

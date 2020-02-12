@@ -5,8 +5,8 @@ Note that the PCRE 8.xx series (PCRE1) is now in a bugfix-only state. All
 development is happening in the PCRE2 10.xx series.
 
 
-Version 8.44-RC1 01 March-2019
-------------------------------
+Version 8.44 12 February-2020
+-----------------------------
 
 1. Setting --enable-jit=auto for an out-of-tree build failed because the
 source directory wasn't in the search path for AC_TRY_COMPILE always. Patch
@@ -27,10 +27,10 @@ added.
 after a successful compile, instead of at the start of matching to avoid a
 sanitizer complaint (regexec is supposed to be thread safe).
 
-6. Check the size of the number after (?C as it is read, in order to avoid 
+6. Check the size of the number after (?C as it is read, in order to avoid
 integer overflow.
 
-7. Tidy up left shifts to avoid sanitize warnings; also fix one NULL deference 
+7. Tidy up left shifts to avoid sanitize warnings; also fix one NULL deference
 in pcretest.
 
 
