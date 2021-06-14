@@ -21,9 +21,9 @@ PLEASE TAKE NOTE
        library names libpcre, libpcre16, and libpcre32. January 2015  saw  the
        first release of a new API, known as PCRE2, with release numbers start-
        ing  at  10.00  and  library   names   libpcre2-8,   libpcre2-16,   and
-       libpcre2-32. The old libraries (now called PCRE1) are still being main-
-       tained for bug fixes,  but  there  will  be  no  new  development.  New
-       projects are advised to use the new PCRE2 libraries.
+       libpcre2-32.  The  old  libraries  (now called PCRE1) are now at end of
+       life, and 8.45 is the final release. New projects are  advised  to  use
+       the new PCRE2 libraries.
 
 
 INTRODUCTION
@@ -190,11 +190,11 @@ AUTHOR
 
 REVISION
 
-       Last updated: 10 February 2015
-       Copyright (c) 1997-2015 University of Cambridge.
+       Last updated: 14 June 2021
+       Copyright (c) 1997-2021 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRE(3)                    Library Functions Manual                    PCRE(3)
 
 
@@ -525,8 +525,8 @@ REVISION
        Last updated: 12 May 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRE(3)                    Library Functions Manual                    PCRE(3)
 
 
@@ -853,8 +853,8 @@ REVISION
        Last updated: 12 May 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREBUILD(3)               Library Functions Manual               PCREBUILD(3)
 
 
@@ -1356,8 +1356,8 @@ REVISION
        Last updated: 12 May 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREMATCHING(3)            Library Functions Manual            PCREMATCHING(3)
 
 
@@ -1574,8 +1574,8 @@ REVISION
        Last updated: 12 November 2013
        Copyright (c) 1997-2012 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREAPI(3)                 Library Functions Manual                 PCREAPI(3)
 
 
@@ -4275,8 +4275,8 @@ REVISION
        Last updated: 18 December 2015
        Copyright (c) 1997-2015 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRECALLOUT(3)             Library Functions Manual             PCRECALLOUT(3)
 
 
@@ -4525,8 +4525,8 @@ REVISION
        Last updated: 12 November 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRECOMPAT(3)              Library Functions Manual              PCRECOMPAT(3)
 
 
@@ -4720,8 +4720,8 @@ REVISION
        Last updated: 10 November 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREPATTERN(3)             Library Functions Manual             PCREPATTERN(3)
 
 
@@ -7670,8 +7670,8 @@ REVISION
        Last updated: 23 October 2016
        Copyright (c) 1997-2016 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRESYNTAX(3)              Library Functions Manual              PCRESYNTAX(3)
 
 
@@ -8076,8 +8076,8 @@ REVISION
        Last updated: 08 January 2014
        Copyright (c) 1997-2014 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREUNICODE(3)             Library Functions Manual             PCREUNICODE(3)
 
 
@@ -8295,8 +8295,8 @@ REVISION
        Last updated: 27 February 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREJIT(3)                 Library Functions Manual                 PCREJIT(3)
 
 
@@ -8750,8 +8750,8 @@ REVISION
        Last updated: 05 July 2017
        Copyright (c) 1997-2017 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREPARTIAL(3)             Library Functions Manual             PCREPARTIAL(3)
 
 
@@ -9235,8 +9235,8 @@ REVISION
        Last updated: 02 July 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREPRECOMPILE(3)          Library Functions Manual          PCREPRECOMPILE(3)
 
 
@@ -9374,8 +9374,8 @@ REVISION
        Last updated: 12 November 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREPERFORM(3)             Library Functions Manual             PCREPERFORM(3)
 
 
@@ -9544,8 +9544,8 @@ REVISION
        Last updated: 25 August 2012
        Copyright (c) 1997-2012 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCREPOSIX(3)               Library Functions Manual               PCREPOSIX(3)
 
 
@@ -9808,8 +9808,8 @@ REVISION
        Last updated: 09 January 2012
        Copyright (c) 1997-2012 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRECPP(3)                 Library Functions Manual                 PCRECPP(3)
 
 
@@ -10151,8 +10151,8 @@ REVISION
 
        Last updated: 08 January 2012
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRESAMPLE(3)              Library Functions Manual              PCRESAMPLE(3)
 
 
@@ -10305,8 +10305,8 @@ REVISION
        Last updated: 05 November 2013
        Copyright (c) 1997-2013 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
 PCRESTACK(3)               Library Functions Manual               PCRESTACK(3)
 
 
@@ -10491,5 +10491,5 @@ REVISION
        Last updated: 24 June 2012
        Copyright (c) 1997-2012 University of Cambridge.
 ------------------------------------------------------------------------------
-
-
+ 
+ 
