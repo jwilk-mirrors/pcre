@@ -768,6 +768,6 @@ Everything, source and executable, is in EBCDIC and native z/OS file formats.
 However, this software is not maintained and will not be upgraded. If you are
 new to PCRE you should be looking at PCRE2 (version 10.30 or later).
 
-===============================
-Last Updated: 13 September 2017
-===============================
+==========================
+Last Updated: 15 June 2021
+==========================
